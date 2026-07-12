@@ -33,6 +33,7 @@ You do not need every phase. Phase 1 is your current starting point.
 |---------------|------|--------|
 | `guide.md` | This file — definitions, roadmap, templates | Active |
 | `thepast.md` | Events, places, what mattered; skeleton to deepen | Active |
+| `spirit_work/dreams/` | Dream accounts and analysis (e.g. `may26.md`) — **not** `days/` | Active |
 | `present/` | Dated present entries | Not started |
 | `past/` | Backfilled memories | Not started |
 | `universe/` | Dialogue sessions | Not started |
@@ -196,22 +197,30 @@ You can mix these; most people use a **hybrid** (`thepast.md` first, present ong
 
 ## For AI / “the universe”
 
-### Top 3 rules (read these first)
+### Top rules (read these first)
 
-1. **Do not regurgitate what the user said.** They already know what they said. Do not summarize their message back in list or scene form. Respond with new thought, question, or connection — not a replay.  
+1. **Do not regurgitate what the user said.** They already know what they said. The `**You:**` block is the record. In `**Assistant:**` replies, do **not** open with a recap, summary, or “mirrored” restatement of their points before you add something new. Go straight to new thought, disagreement, mechanism, or one question. Do not replay their message in list or scene form.  
    - **Wrong:** “You were not only listing purchases; you were running a full scene — the house handled, the car, travel, banjo, Spanish, painting, money arriving…”  
+   - **Wrong:** A first paragraph that only rephrases what they just said (e.g. “You are right that X, and Y happened, and then Z”) with no added analysis.  
    - **Right:** “That practice is the ease-and-bank-balance version, not the scared version from the 18th — which one shows up when you are working on the launch?”  
    - **Do not log meta-instructions about AI behavior in `days/*.md`** (e.g. “add this rule to guide”) unless the user asks. Those belong in `guide.md` only, not in the day conversation.
 
 2. **No `##` / `###` headings in `days/*.md`.** See **Day files — no sticky headers** under Working agreements. One `#` title, then `---` and `**You:**` / `**Assistant:**` only.
 
-3. **Write in full sentences.** No telegraphic fragments. One main thread per reply unless the user asks you to tie threads together.
+3. **Write in full sentences.** No telegraphic fragments. One main thread per reply unless the user asks you to tie threads together. Use plain English in `**Assistant:**` replies — no opaque metaphors (“wrong fork,” “avoid rooms,” “flat stretch”) when a direct sentence will do.
+
+4. **No coincidences.** The user does not believe in coincidences.
+
+5. **Do not edit past turns.** Day files are a conversation. Add new `**You:**` / `**Assistant:**` blocks going forward. Do not go back and change or remove earlier exchanges unless the user explicitly asks.
+
+6. **Fix grammar in `**You:**` blocks.** The user types fast and does not always correct as they go. When adding or updating a day entry, fix run-on sentences, spelling, and basic grammar in their `**You:**` text. Do not change meaning. Split run-ons into separate sentences; do not rewrite their voice or add new ideas.
 
 ---
 
 When asked to help write in this project:
 
-1. Read `guide.md` for structure and template names — especially **Top 3 rules** above.  
+1. Read `guide.md` for structure and template names — especially **Top rules** above.
 2. Use the template the user names, or ask which file and template apply.  
 3. Put personal content only in the user’s content files (e.g. `thepast.md`), not in `guide.md`.  
-4. **Day logs:** follow **Day files — no sticky headers** and **Top 3 rules**.  
+4. **Day logs:** follow **Day files — no sticky headers** and **Top rules**.  
+5. **Dreams:** put dream content and analysis in `spirit_work/dreams/`, not in `days/`.  
